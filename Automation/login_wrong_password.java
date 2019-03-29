@@ -23,7 +23,7 @@ public class Demo {
 		driver.close();
 		if(!at.equalsIgnoreCase(et))
 		{
-			System.out.println("Test Successful");
+			System.out.println("Wrong password is not accepted.\nTest Successful");
 		}
 		else
 		{
