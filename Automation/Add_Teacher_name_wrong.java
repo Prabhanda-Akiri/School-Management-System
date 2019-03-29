@@ -29,7 +29,7 @@ public class Demo {
 		String at =driver.getTitle();
 		String et = "Admin Home";
 		driver.close();
-		if(at.equalsIgnoreCase(et))
+		if(!at.equalsIgnoreCase(et))
 		{
 			System.out.println("Test Successful");
 		}
