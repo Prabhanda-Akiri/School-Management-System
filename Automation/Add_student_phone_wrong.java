@@ -16,11 +16,11 @@ public class Demo {
 		Thread.sleep(1000);
 		driver.findElement(By.name("scourse")).sendKeys("5");
 		Thread.sleep(1000);
-		driver.findElement(By.name("sphone")).sendKeys("9886296865");
+		driver.findElement(By.name("sphone")).sendKeys("12345");
 		Thread.sleep(1000);
 		driver.findElement(By.name("sparent")).sendKeys("Kiran Kumar");
 		Thread.sleep(1000);
-		driver.findElement(By.name("sparentemail")).sendKeys("kumar.vasanth");
+		driver.findElement(By.name("sparentemail")).sendKeys("kumar.vasanth@gmail.com");
 		Thread.sleep(1000);
 		driver.findElements(By.name("gender")).get(0).click();
 		Thread.sleep(1000);
@@ -33,7 +33,7 @@ public class Demo {
 		driver.close();
 		if(!at.equalsIgnoreCase(et))
 		{
-			System.out.println("Invalid pattern of email is not accepted.\nTest Successful");
+			System.out.println("Invalid pattern of phone number is not accepted.\nTest Successful");
 		}
 		else
 		{
