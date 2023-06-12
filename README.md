@@ -8,7 +8,7 @@ Includes:
 2. Software Requirements Specification
 3. Design
 4. Work Done
-	4.1 Development Environment
-	4.2 Testing
-	4.3 Performance of the Application
-	4.4 Cost Estimation
+4.1 Development Environment
+4.2 Testing
+4.3 Performance of the Application
+4.4 Cost Estimation
